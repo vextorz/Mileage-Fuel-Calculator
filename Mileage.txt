@@ -1,0 +1,37 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240113211648
+Username: DESKTOP-RFOAVS7\Admin
+RunAs User: DESKTOP-RFOAVS7\Admin
+Configuration Name: 
+Machine: DESKTOP-RFOAVS7 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module "$env:VSAPPIDDIR\..\Tools\Microsoft.VisualStudio.DevShell.dll"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath $env:VSAPPIDDIR\..\..\}
+Process ID: 5624
+PSVersion: 5.1.17134.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.1
+BuildVersion: 10.0.17134.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Mileage.txt
+PS C:\devel\T200\Mileage\Mileage> bin\Release\Mileage.exe
+*******************************************************
+********* Welcome to the amazing TINFO-200 Trip Calculator ****
+This program will be a basic calculator for fuel efficiency
+for a typical gasoline autoobile trip between visits to the gas
+station. We hope you like the results and find it an easy way to keep
+track of your carbon footprint. You will be led through the input
+of your data - follow the instruction and examples below:
+
+Enter the number of miles for this trip (ex: 310, 297, etc.): 300
+Enter the number of gallsons for this trip (ex: 12.6, 19.4, etc.): 10
+The results of your trip of 300 miles that use 10 gallons is a fuel efficiency of 30 miles per gallon
+Thanks for using amazing TINFO-200 calculator! Tell your friends
+PS C:\devel\T200\Mileage\Mileage> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240113211716
+**********************
